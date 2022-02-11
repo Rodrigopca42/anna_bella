@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-        <img src="../imagen/capa.png" alt="foto">
+        <source media="(max-width: 350px)" srcset="../imagen/capa_pq.png" type="image/png">
+            <source media="(max-width: 550px)" srcset="../imagen/capa_media.png" type="image/png">
+            <img src="../imagen/capa.png" alt="foto">
+        </picture>
     </header>
     <nav>
         <a href="../index.html" target="_self">HOME</a> |
